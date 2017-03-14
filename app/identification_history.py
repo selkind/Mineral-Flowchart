@@ -12,10 +12,6 @@ class IdentificationHistory:
         self.log = []
         self.attribute_log = []
 
-    def show_history(self):
-        for i in range(len(self.log)):
-            print(i + ') ' + self.log[i])
-
     def attribute_is_duplicate(self, attribute):
         for items in self.log:
             if attribute in items:
