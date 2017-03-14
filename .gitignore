@@ -1,0 +1,14 @@
+# directories
+release/
+mac/
+.idea/
+
+# from htmlparser/
+# none for now
+
+# from app/
+build/
+dist/
+*.spec
+*.bat
+*.pyc

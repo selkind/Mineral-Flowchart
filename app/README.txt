@@ -1,0 +1,1 @@
+After unzipping the folder, double click on "Mineral_ID.exe" to run program.

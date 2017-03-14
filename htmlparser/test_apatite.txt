@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html><head>
+<link rel="SHORTCUT ICON" HREF="http://www.mindat.org/favicon.ico">
+<link rel="stylesheet" href="/mindat.css?revision=2016121902" type="text/css">
+
+
+<title>Apatite: Apatite mineral information and data.</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<meta name="description" content="'Apatite' is a field term for unidentified calcium phosphate 
+
+'Apatite' crystals are short to long hexagonal prisms [0001], with <mi>{10_10}</mi> and <mi>{10_11}</mi> dominant; also thick tabular {0001}, frequently in the crystals of hydrothermal origin in pegmatites and veins, with <mi>{10_10}</mi>, relatively large {0001}, and often also <mi>{10_11}</mi> or low pyramids. Massive, coarse granular to compact. Globular or reniform at times with a sub-fibrous, scaly, or imperfectly columnar structure or as fibrous crusts; stalactitic; earthy; oolitic. May be rock-forming in beds of great extent; as nodular concretions in clays and shales; conglomeritic.
+
+Apatite may be confused with <m>beryl</m>.">
+
+<meta name="viewport"
+  content="width=device-width, initial-scale=1.0,
+  minimum-scale=1.0, maximum-scale=4.0" />
+<link rel="alternate" hreflang="zh" href="http://zh.mindat.org/min-29229.html" />
+<link rel="alternate" hreflang="x-default" href="http://www.mindat.org/min-29229.html" />
+
+
+<link href="/js/jqueryui/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="/js/jqueryui/jquery-ui.theme.css" rel="stylesheet" type="text/css" />
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/js/jquery-ui.min.js"></script>
+<script src="/js/jjquery.cookie-modified.js"></script>
+<script src="/js/jquery.autocomplete-min.js"></script>
+<script src="/cform/cform_client.js"></script>
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script>
+if (parent.frames.length > 0)  parent.location.href = self.document.location;
+</script>
+<script>
+	$(window).ready(function(){
+		
+		if(!$("#ndtitlearea").is(":visible")) 
+		{
+			$("#ndtitlearea").html("<b>You are running an adblocker on mindat - please disable your adblocker on mindat for full compatibility</b>").show();
+		}
+		
+		
+		});
+</script>
+</head>
+<body>
+
+<div id="ndtitlearea">
+
+<div id="ndtitlebar">
+		
+	
+	
+	<a href="/"><img id="mindatlogo" src="/img/16years.png" alt="Mindat Logo - 16th Anniversary"></a>
+
+
+
+<div id="ndusermenu">
+<a  href="/campaign.php">Help mindat.org</a><span class="vbar">|</span><a  href="/login.php">Log In</a><span class="vbar">|</span><a  href="/register.php">Register</a><span class="vbar">|</span>
+<div id="languageselector">
+<label for="langsel">Language:</label>
+<select name="langsel">
+<option value="en" selected>English</option><option value="zh">中文</option></select>
+<script>
+var newurl;
+$("#languageselector SELECT").change(
+		function() {
+			switch($(this).val())
+			{
+			case 'en':
+				newurl="www.mindat.org";
+			break;
+			default:
+				newurl=$(this).val()+".mindat.org";
+			break;
+			
+			}
+			window.location.href='http://'+newurl;
+		});
+
+</script>
+
+
+
+
+</div>
+
+</div>
+<div id="ndmainmenu">
+<a id='aboutmenuctrl' href="javascript:openexpander('aboutmenu','');">About Mindat</a><a id='supportmenuctrl' href="javascript:openexpander('supportmenu','');">Support Mindat</a><a id='photomenuctrl' href="javascript:openexpander('photomenu','');">Photos</a><a  href="/forum.php">Messageboard</a><a id='searchmenuctrl' href="javascript:openexpander('searchmenu','');">Advanced Search</a><a id='moremenuctrl' href="javascript:openexpander('moremenu','');">More</a>
+<form method="get" action="/search.php">
+<input type="text" placeholder="Search Mindat" id="ndsearchmin" name="search">
+<input type="submit" value="Go">
+</form>
+
+
+</div>
+<div class="clearer"></div>
+</div>
+
+</div>
+<div id="mainwrap">
+
+
+<script>
+	
+
+function openexpander(nm,suf)
+{
+	if($("#"+nm+suf+"ctrl").hasClass("expandselect"+suf)) return;
+	$(".expandselect"+suf).removeClass("expandselect"+suf);
+	$("#"+nm+suf+"ctrl").addClass("expandselect"+suf);
+	
+	/*
+	if(suf=='')
+	{
+		var topshift = "45px";
+		if(nm=="searchmenu") topshift="250px";
+		if($(".centerer").css("padding-top")!=topshift)
+		{
+			$(".centerer").animate({ "padding-top": topshift},500);
+			
+		}
+	} else
+	{
+		$("#expanderarea"+suf).animate({ "padding-top": "45px"},500);
+	}
+	*/
+	$(".expandmenu"+suf).hide();
+	$("#"+nm).fadeIn(500);
+
+}
+</script>
+
+
+<div class="expandmenu" id="aboutmenu">
+<a  href="/">Home Page</a><a  href="/newslist.php">Mindat News</a><a  target="blank" href="http://manual.mindat.org">The Mindat Manual</a><a  href="/article.php/1026/Mindat.org+-+10+years+online+today">History of Mindat</a><a  href="/copyrights.php">Copyright Status</a><a  href="/management_list.php">Management Team</a><a  href="/contact.php">Contact Us</a><a  href="/directory_upgrade.php">Advertise on Mindat</a></div>
+
+<div class="expandmenu" id="supportmenu">
+<a  href="/donate.php">Donate to Mindat</a><a  href="/article.php/308/Sponsorship">Sponsor a Page</a><a  href="/sponsored.php">Sponsored Pages</a><a  href="/topforsponsor.php">Top Available Pages</a><a  href="/advertisers.php">Mindat Advertisers</a><a  href="/directory_upgrade.php">Advertise on Mindat</a><a  target="blank" href="http://store.mindat.org">The Mindat Store</a></div>
+
+<div class="expandmenu" id="searchmenu">
+<a  href="/fullsearch.php">Minerals by Properties</a><a  href="/chemsearch.php">Minerals by Chemistry</a><a  href="/randommin.php">Random Mineral</a><a  href="/minid.php">Search by minID</a><a  href="/nearestlocs.php">Localities Near Me</a><a  href="/glossary.php">Search Glossary</a><a  href="/searchmenu.php">More Search Options</a><div id="searchmenuform">
+
+<script>
+function usearch(ctrl)
+{
+
+	var ctla = document.getElementById("fpsearcha");
+	var ctlb = document.getElementById("fpsearchb");
+	var ctlc = document.getElementById("fpsearchc");
+	
+	switch(ctrl.value)
+	{
+		case "1":
+			ctla.style.display="";
+			ctlb.style.display="none";
+			ctlc.style.display="none";
+		break;
+		case "2":
+			ctla.style.display="none";
+			ctlb.style.display="";
+			ctlc.style.display="none";
+		break;
+		case "3":
+			ctla.style.display="";
+			ctlb.style.display="";
+			ctlc.style.display="none";
+		break;
+		case "5":
+		case "6":
+		case "7":
+		case "8":
+		case "9":
+			ctla.style.display="none";
+			ctlb.style.display="none";
+			ctlc.style.display="";
+		break;
+		default:
+			ctla.style.display="";
+			ctlb.style.display="";
+			ctlc.style.display="";
+		break;
+	}	
+}
+</script>
+<form method="get" action="/newsearch.php">
+<div class="smfblock">
+<b>Search For:</b>
+<select class="smfsel" style="width: 200px;" name="type" onchange='usearch(this)'>
+<option value=0>- Any -</option>
+<option value=1>Mineral / Rock / Gem</option>
+<option value=2>Locality</option>
+<option value=3>Minerals in Region</option>
+<option value=4>Photo</option>
+<option value=8>Glossary</option>
+<option value=6>Messageboard</option>
+<option value=9>Articles</option>
+<option value=7>Site Search</option>
+</select>
+</div>
+<div class="smfblock" id="fpsearcha"><b>Mineral Name:</b>
+<input class="smftxt" type="text" name="name">
+</div>
+<div class="smfblock" id="fpsearchb"><b>Locality Name:</b>
+<input class="smftxt" type="text" name="loc">
+</div>
+<div class="smfblock" id="fpsearchc"><b>Keyword(s):</b>
+<input class="smftxt" type="text" name="kwds">
+</div>
+<div class="smfblock"><b>&nbsp;</b>
+<input class="smfsubmit" type="submit" value="Search">
+
+</div>
+</form>
+</div>
+<div class="clearer"></div>
+</div>
+
+<div class="expandmenu" id="addeditmenu">
+<a  target="blank" href="http://manual.mindat.org">The Mindat Manual</a><a  href="/photoupload.php">Add a New Photo</a><a  href="/revpicssel.php">Rate Photos</a><a  href="/lsearchrec.php">Locality Edit Report</a><a  href="/coordinateleague.php">Coordinate Completion Report</a><a  href="/glossedit.php">Add Glossary Item</a></div>
+
+
+<div class="expandmenu" id="moremenu">
+<a  href="/stats.php">Statistics</a><a  href="/elements.php">The Elements</a><a  href="/listusers.php">Member List</a><a  href="/mindat_books.php">Books & Magazines</a><a  href="/eventlist.php">Mineral Shows & Events</a><a  href="/directory.php">The Mindat Directory</a><a  href="/howtolink.php">How to Link to Mindat</a><a  href="/device_settings.php">Device Settings</a></div>
+<div class="expandmenu" id="photomenu">
+<a  href="/photoscroll.php">Photo Search</a><a  href="/gallery_list.php">Photo Galleries</a><a  href="/gallery.php?d=2017-01-16">New Photos Today</a><a  href="/gallery.php?d=2017-01-15">New Photos Yesterday</a><a  href="/picusers.php">Members' Photo Galleries</a><a  href="/gallery.php?potd=1">Past Photo of the Day Gallery</a></div>
+
+
+
+
+
+
+<div class="centerer whitecenterer">
+<div id='topmainbanner'></div>
+<div id='topmainbannertablet'></div>
+<div id='topmainbannerphone'></div>
+<div class="mindatadiv"><script src="show.js" language="JavaScript" type="text/javascript">
+</script>
+<div class="fpbox990nl"><h1>Apatite</h1><div id="sponsorship">This page kindly sponsored by <a href="user-7531.html">Matt Zukowski</a></div><div id="ndminmenu"><a id='gallerymenu2ctrl' href="javascript:openexpander('gallerymenu','2');">Photos of Apatite (5540)</a><div class="clearer"></div></div>
+		
+
+<div class="expandmenu2" id="gallerymenu">
+<a  href="/gm/29229">Apatite Gallery</a><a  href="/gallery.php?min=29229">Search Photos of Apatite</a></div>
+<div class="expandmenu2" id="mineditmenu">
+<a  href="/mineraledit.php?id=29229">Edit </a><a  href="/mineraledit.php?ee=29229">Add Synonym</a><a  href="/show.php?id=29229&ld=&clearcache=1">Clear Cache</a><a  href="//mesg-63-0.html">Edit 'Best-of' Discussion</a></div>
+
+	<div id="expanderarea2"></div>
+<div class="minpagephotobox hidephone hidetablet"><div class="newpicbox "><div class='userbigpicture noborder' style="float: left; width: 234px;"><a href="/photo-514890.html"><img  Width="234"  Height="238"  src="/arphotos/289h293-0350177001360275109.jpg"></a><div class='userbigpicturecomment'><b><a href="/min-1992.html">Hydroxylapatite</a></b><br><br><a href="/loc-13890.html">Oksøyekollen, Snarum, Modum, Buskerud, Norway</a></div></div><div class='userbigpicture noborder' style="float: left; width: 152px;"><a href="/photo-472144.html"><img  Width="152"  Height="238"  src="/arphotos/289h452-0667232001340374472.jpg"></a><div class='userbigpicturecomment'><b><a href="/min-1572.html">Fluorapatite</a></b><br><br><a href="/loc-265832.html">Ipirá complex, Bahia, Brazil</a></div></div><div class='userbigpicture noborder' style="float: left; width: 288px;"><a href="/photo-57828.html"><img  Width="288"  Height="238"  src="/arphotos/289h238-0338756001353032284.jpg"></a><div class='userbigpicturecomment'><b><a href="/min-1572.html">Fluorapatite</a></b><br><br><a href="/loc-3787.html">Emmons Quarry, Uncle Tom Mountain, Greenwood, Oxford Co., Maine, USA</a></div></div><div class='userbigpicture noborder' style="float: left; width: 317px;"><a href="/photo-609359.html"><img  Width="317"  Height="238"  src="/arphotos/-0554704001398478400.jpg"></a><div class='userbigpicturecomment'><b><a href="/min-1572.html">Fluorapatite</a></b><br><br><a href="/loc-265832.html">Ipirá complex, Bahia, Brazil</a></div></div><div class="clearer"></div></div></div><div class="minpagephotobox hidephone hidepc"><div class="newpicbox "><div class='userbigpicture noborder' style="float: left; width: 158px;"><a href="/photo-514890.html"><img  Width="158"  Height="161"  src="/arphotos/289h293-0350177001360275109.jpg"></a><div class='userbigpicturecomment'><b><a href="/min-1992.html">Hydroxylapatite</a></b><br><br><a href="/loc-13890.html">Oksøyekollen, Snarum, Modum, Buskerud, Norway</a></div></div><div class='userbigpicture noborder' style="float: left; width: 102px;"><a href="/photo-472144.html"><img  Width="102"  Height="161"  src="/arphotos/289h452-0667232001340374472.jpg"></a><div class='userbigpicturecomment'><b><a href="/min-1572.html">Fluorapatite</a></b><br><br><a href="/loc-265832.html">Ipirá complex, Bahia, Brazil</a></div></div><div class='userbigpicture noborder' style="float: left; width: 195px;"><a href="/photo-57828.html"><img  Width="195"  Height="161"  src="/arphotos/289h238-0338756001353032284.jpg"></a><div class='userbigpicturecomment'><b><a href="/min-1572.html">Fluorapatite</a></b><br><br><a href="/loc-3787.html">Emmons Quarry, Uncle Tom Mountain, Greenwood, Oxford Co., Maine, USA</a></div></div><div class='userbigpicture noborder' style="float: left; width: 215px;"><a href="/photo-609359.html"><img  Width="215"  Height="161"  src="/arphotos/-0554704001398478400.jpg"></a><div class='userbigpicturecomment'><b><a href="/min-1572.html">Fluorapatite</a></b><br><br><a href="/loc-265832.html">Ipirá complex, Bahia, Brazil</a></div></div><div class="clearer"></div></div></div><div class="minpagephotobox hidetablet hidepc"><div class="newpicbox "><div class='userbigpicture noborder' style="float: left; width: 316px;"><a href="/photo-514890.html"><img  Width="316"  src="/arphotos/316-0350177001360275109.jpg"></a><div class='userbigpicturecomment'><b><a href="/min-1992.html">Hydroxylapatite</a></b><br><br><a href="/loc-13890.html">Oksøyekollen, Snarum, Modum, Buskerud, Norway</a></div></div><div class='userbigpicture noborder' style="float: left; width: 316px;"><a href="/photo-472144.html"><img  Width="316"  src="/arphotos/316-0667232001340374472.jpg"></a><div class='userbigpicturecomment'><b><a href="/min-1572.html">Fluorapatite</a></b><br><br><a href="/loc-265832.html">Ipirá complex, Bahia, Brazil</a></div></div><div class="clearer"></div></div></div><div><div id="introdata"><div><span>Formula:</span><div class='twocol'><span class="newformula">Ca<sub class='newformsub'>5</sub>(PO<sub class='newformsub'>4</sub>)<sub class='newformsub'>3</sub>X</span></div></div><div><span></span><div class='twocol'>X = OH, Cl or F</div></div><div><span>System:</span><div>Hexagonal</div></div><div><span>Hardness:</span><div>5</div></div><div><span>Name:</span><div class='twocol'>From the Greek the greek ἀπατάω (apatao), to deceive or to be misleading, as apatite was often confused with other minerals (e.g. <a href="/min-819.html">beryl</a>, <a href="/min-2710.html">milarite</a>).</div></div><div><span>Synonym of:</span><div class='twocol'><a href="min-1013.html">Chlorapatite</a>, <a href="min-1572.html">Fluorapatite</a>, <a href="min-1992.html">Hydroxylapatite</a></div></div></div></div><div class='clearer'></div><div class='padder4'>"Apatite" is a field term for unidentified calcium phosphate <br />
+<br />
+"Apatite" crystals are short to long hexagonal prisms [0001], with {10<span class="o">1</span>0} and {10<span class="o">1</span>1} dominant; also thick tabular {0001}, frequently in the crystals of hydrothermal origin in pegmatites and veins, with {10<span class="o">1</span>0}, relatively large {0001}, and often also {10<span class="o">1</span>1} or low pyramids. Massive, coarse granular to compact. Globular or reniform at times with a sub-fibrous, scaly, or imperfectly columnar structure or as fibrous crusts; stalactitic; earthy; oolitic. May be rock-forming in beds of great extent; as nodular concretions in clays and shales; conglomeritic.<br />
+<br />
+Apatite may be confused with <a href="/min-819.html">beryl</a>.<br><br><b>Visit gemdat.org for <a href="http://www.gemdat.org/gem-29229.html">gemological information about Apatite</a>.</b><br /><br /><br /></div><h2 class="mindatadivh2">Classification of Apatite</h2><h2 class="mindatadivh2">Apatite in petrology</h2><div class='mindatarow'><div class='mindatath2'>An essential component of (items highlighted in red)</div></div><div class='mindatarow'><div class='mindatath'></div><div class="mindatam2"><div class='tree'><ul><li><a href='/min-48017.html' ><b>Igneous rock</b></a><ul><li><a href='/min-50480.html' ><b>Normal crystalline igneous rock</b></a><ul><li><a href='/min-48121.html' ><b>Coarse-grained ("plutonic") crystalline igneous rock</b></a><ul><li><a href='/min-48224.html' ><b>Dioritoid</b></a><ul><li><a href='/min-48244.html' ><b>Monzodiorite</b></a></li></ul></li><li><a href='/min-48384.html' ><b>Foidolite</b></a><ul><li><a href='/min-48389.html' ><b>Nephelinolite</b></a><ul></ul></li></ul></li><li><a href='/min-50598.html' ><b>Coarse-grained-ultramafic-rock</b></a><ul><li><a href='/min-48417.html' ><b>Pyroxenite</b></a><ul></ul></li></ul></li></ul></li></ul></li><li><a href='/min-48018.html' ><b>Exotic crystalline igneous rock</b></a><ul><li><a href='/min-48064.html' ><b>Lamprophyre</b></a><ul><li><a href='/min-10952.html' ><b>Minette</b></a></li></ul></li><li><a href='/min-50478.html' ><b>Rock of restricted mineralogy</b></a><ul><li><a href='/locentries.php?p=&m=48106'  class='realid'>ⓘ</a> <a href='/min-48106.html'  class='realid'><b>Apatite-magnetite-rock</b></a></li><li><a href='/locentries.php?p=&m=48111'  class='realid'>ⓘ</a> <a href='/min-48111.html'  class='realid'><b>Ilmenite-apatite-rock</b></a></li><li><a href='/locentries.php?p=&m=48114'  class='realid'>ⓘ</a> <a href='/min-48114.html'  class='realid'><b>Apatitolite</b></a></li></ul></li></ul></li></ul></li></ul></div></div></div><div class='mindatarow'><div class='mindatath2'>Common component of (items highlighted in red)</div></div><div class='mindatarow'><div class='mindatath'></div><div class="mindatam2"><div class='tree'><ul><li><a href='/min-48017.html' ><b>Igneous rock</b></a><ul><li><a href='/min-50480.html' ><b>Normal crystalline igneous rock</b></a><ul><li><a href='/min-48121.html' ><b>Coarse-grained ("plutonic") crystalline igneous rock</b></a><ul><li><a href='/min-48384.html' ><b>Foidolite</b></a><ul><li><a href='/min-48389.html' ><b>Nephelinolite</b></a><ul><li><a href='/min-48393.html' ><b>Ijolite</b></a></li></ul></li></ul></li></ul></li></ul></li><li><a href='/min-48018.html' ><b>Exotic crystalline igneous rock</b></a><ul><li><a href='/min-50478.html' ><b>Rock of restricted mineralogy</b></a><ul><li><a href='/locentries.php?p=&m=48113'  class='realid'>ⓘ</a> <a href='/min-48113.html'  class='realid'><b>Ilmenitite</b></a></li></ul></li></ul></li></ul></li><li><a href='/min-49095.html' ><b>Sedimentary rock and sediment</b></a><ul><li><a href='/min-50895.html' ><b>Clastic sedimentary rock</b></a><ul><li><a href='/min-49438.html' ><b>Sandstone</b></a><ul><li><a href='/min-49441.html' ><b>Wacke</b></a><ul><li><a href='/min-49121.html' ><b>Silicate-wacke</b></a><ul></ul></li></ul></li></ul></li></ul></li><li><a href='/min-50843.html' ><b>Biochemical and chemical sedimentary rock</b></a><ul><li><a href='/locentries.php?p=&m=49253'  class='realid'>ⓘ</a> <a href='/min-49253.html'  class='realid'><b>Phosphatic sediment and phosphorite</b></a></li></ul></li></ul></li><li><a href='/min-48625.html' ><b>Metamorphic rock and metasediment</b></a><ul><li><a href='/min-48653.html' ><b>Metasomatic-rock</b></a><ul><li><a href='/locentries.php?p=&m=50157'  class='realid'>ⓘ</a> <a href='/min-50157.html'  class='realid'><b>Aceite</b></a></li></ul></li><li><a href='/min-49077.html' ><b>Impactite</b></a><ul><li><a href='/min-49089.html' ><b>Multiple impact impactite</b></a><ul><li><a href='/min-49091.html' ><b>Shock lithified impact regolith</b></a><ul><li><a href='/min-49092.html' ><b>Regolith breccia</b></a></li></ul></li></ul></li></ul></li></ul></li></ul></div></div></div><div class='mindatarow'><div class='mindatath2'>Accessory component of (items highlighted in red)</div></div><div class='mindatarow'><div class='mindatath'></div><div class="mindatam2"><div class='tree'><ul><li><a href='/min-48017.html' ><b>Igneous rock</b></a><ul><li><a href='/min-50480.html' ><b>Normal crystalline igneous rock</b></a><ul><li><a href='/min-48121.html' ><b>Coarse-grained ("plutonic") crystalline igneous rock</b></a><ul><li><a href='/min-48126.html' ><b>Granitoid</b></a><ul><li><a href='/min-48141.html' ><b>Granite</b></a><ul></ul></li></ul></li><li><a href='/min-48178.html' ><b>Syenitoid</b></a><ul><li><a href='/min-48213.html' ><b>Syenite</b></a></li></ul></li></ul></li><li><a href='/min-48444.html' ><b>Fine-grained ("volcanic") normal crystalline igneous rock</b></a><ul></ul></li></ul></li><li><a href='/min-50986.html' ><b>Ultrapotassic rock</b></a></li></ul></li><li><a href='/min-49095.html' ><b>Sedimentary rock and sediment</b></a><ul><li><a href='/min-50843.html' ><b>Biochemical and chemical sedimentary rock</b></a><ul><li><a href='/min-49253.html' ><b>Phosphatic sediment and phosphorite</b></a><ul><li><a href='/min-9442.html' ><b>Phosphorite</b></a><ul><li><a href='/locentries.php?p=&m=49265'  class='realid'>ⓘ</a> <a href='/min-49265.html'  class='realid'><b>Guano</b></a></li></ul></li></ul></li></ul></li></ul></li><li><a href='/min-48625.html' ><b>Metamorphic rock and metasediment</b></a><ul><li><a href='/min-48653.html' ><b>Metasomatic-rock</b></a><ul><li><a href='/locentries.php?p=&m=48654'  class='realid'>ⓘ</a> <a href='/min-48654.html'  class='realid'><b>Fenite</b></a></li></ul></li></ul></li></ul></div></div></div><script>
+$(function() {
+	$("div.tree li:last-child").addClass("lasttree");
+	});
+</script>
+<h2 class="mindatadivh2">Physical Properties of Apatite</h2><div class='mindatarow'><div class='mindatath'>Hardness (Mohs):</div><div class="mindatam2">5</div></div><div class='mindatarow'><div class='mindatath'>Density:</div><div class="mindatam2">3.1 - 3.2 g/cm<sup>3</sup> (Measured) &nbsp;&nbsp;&nbsp;</div></div><h2 class="mindatadivh2">Crystallography of Apatite</h2><div class='mindatarow'><div class='mindatath'>Crystal System:</div><div class="mindatam2">Hexagonal</div></div><h2 class="mindatadivh2">Chemical Properties of Apatite</h2><div class='mindatarow'><div class='mindatath'>Formula:</div><div class="mindatam2"><span class="newformula">Ca<sub class='newformsub'>5</sub>(PO<sub class='newformsub'>4</sub>)<sub class='newformsub'>3</sub>X</span><br><br>X = OH, Cl or F</div></div><div class='mindatarow'><div class='mindatath'>Elements listed in formula:</div><div class="mindatam2"><a href='/element/Calcium'>Ca</a>, <a href='/element/Oxygen'>O</a>, <a href='/element/Phosphorus'>P</a> - <a href="chemsearch.php?inc=CaOP,">search for minerals with similar chemistry</a></div></div><h2 class="mindatadivh2">Other Names for Apatite</h2><div class='mindatarow'><div class='mindatath'><a href="/glossary/synonym">Synonyms:</a></div><div class="mindatam2"><div class="newgrouptable2"><p><a href="min-4620.html">Agustite</a></p><p><a href="min-9437.html">Asparagolite</a></p><p><a href="min-9436.html">Asparagus Stone</a></p><p><a href="min-8491.html">Augustite</a></p><p><a href="min-32299.html">Estramadurite</a></p><p><a href="min-32308.html">Fluocollophanite</a></p><p><a href="min-32307.html">Fluorcollophane</a></p><p><a href="min-8793.html">Kietyogite</a></p><p><a href="min-8767.html">Kietyöite</a></p><p><a href="min-32280.html">Phosphate of Lime</a></p><p><a href="min-32297.html">Pyroguanite</a></p><p><a href="min-4621.html">Sombrerite</a></p></div></div></div><div class='mindatarow'><div class='mindatath'>Name in Other Languages:</div><div class="mindatam2"><div class="newgrouptable3"><div><b>Arabic:</b><span><a href="min-36207.html">اباتيت</a></span></div><div><b>Bulgarian:</b><span><a href="min-32828.html">Апатит</a></span></div><div><b>Catalan:</b><span><a href="min-12095.html">Apatita</a></span></div><div><b>Croatian:</b><span><a href="min-12094.html">Apatit</a></span></div><div><b>Czech:</b><span><a href="min-12094.html">Apatit</a></span></div><div><b>Dutch:</b><span><a href="min-36212.html">Apatiet</a></span></div><div><b>Esperanto:</b><span><a href="min-4619.html">Apatito</a></span></div><div><b>Estonian:</b><span><a href="min-36208.html">Apatiit</a></span></div><div><b>Finnish:</b><span><a href="min-36215.html">Apatiitti</a></span></div><div><b>French:</b><span><a href="min-29229.html">Apatite</a><br><a href="min-23457.html">Asparagolith</a><br><a href="min-32279.html">Chaux phosphatatée</a><br><a href="min-32276.html">Chrysolite ordinaire</a><br><a href="min-32291.html">La Pierre Phosphorique</a><br><a href="min-32292.html">Phosphate calcaire</a><br><a href="min-32278.html">Pierre d'Asperge</a></span></div><div><b>German:</b><span><a href="min-12094.html">Apatit</a><br><a href="min-22833.html">Augustit</a><br><a href="min-22929.html">Kietyogit</a><br><a href="min-22927.html">Kietyöit</a><br><a href="min-32282.html">Phosphorsaurer Kalk</a><br><a href="min-32283.html">Sächsischer Beryll</a><br><a href="min-19518.html">Sombrerit</a><br><a href="min-32277.html">Spargelgrüne Steinkrystalle aus Spanien nähern Apatit</a><br><a href="min-26904.html">Spargelstein</a></span></div><div><b>Hebrew:</b><span><a href="min-36210.html">אפטיט</a></span></div><div><b>Hungarian:</b><span><a href="min-12094.html">Apatit</a></span></div><div><b>Italian:</b><span><a href="min-29229.html">Apatite</a><br><a href="min-4619.html">Apatito</a></span></div><div><b>Japanese:</b><span><a href="min-31544.html">燐灰石</a></span></div><div><b>Kazakh (Arabic Script):</b><span><a href="min-32828.html">Апатит</a></span></div><div><b>Korean:</b><span><a href="min-36209.html">인회석</a></span></div><div><b>Lithuanian:</b><span><a href="min-36211.html">Apatitas</a></span></div><div><b>Norwegian (Bokmål):</b><span><a href="min-36213.html">Apatitt</a></span></div><div><b>Polish:</b><span><a href="min-36214.html">Apatyt</a></span></div><div><b>Portuguese:</b><span><a href="min-12095.html">Apatita</a></span></div><div><b>Romanian:</b><span><a href="min-12094.html">Apatit</a></span></div><div><b>Russian:</b><span><a href="min-32828.html">Апатит</a></span></div><div><b>Serbian (Cyrillic Script):</b><span><a href="min-32828.html">Апатит</a></span></div><div><b>Simplified Chinese:</b><span><a href="min-35942.html">磷灰石</a></span></div><div><b>Slovak:</b><span><a href="min-12094.html">Apatit</a></span></div><div><b>Spanish:</b><span><a href="min-12095.html">Apatita</a><br><a href="min-19517.html">Agustita</a><br><a href="min-23458.html">Asparagolita</a><br><a href="min-22834.html">Augustita</a><br><a href="min-22930.html">Kietyogita</a><br><a href="min-22928.html">Kietyöita</a><br><a href="min-19519.html">Sombrerita</a></span></div><div><b>Swedish:</b><span><a href="min-12094.html">Apatit</a></span></div><div><b>Thai:</b><span><a href="min-36216.html">อะพาไทต์</a></span></div><div><b>Turkish:</b><span><a href="min-12094.html">Apatit</a></span></div><div><b>Ukrainian:</b><span><a href="min-32828.html">Апатит</a></span></div></div></div></div><div class='mindatarow'><div class='mindatath'><a href="/glossary/variety">Varieties:</a></div><div class="mindatam2"><div class="newgrouptable2"><p><a href="min-8386.html">Améthiste Basaltine (of Sage)</a></p><p><a href="min-39961.html">Apatized Wood</a></p><p><a href="min-43707.html">Asparagas Stone</a></p><p><a href="min-31325.html">Carbonate-rich Apatite</a></p><p><a href="min-9756.html">Cerapatite</a></p><p><a href="min-10072.html">Collophane</a></p><p><a href="min-27368.html">Eupyrchroite</a></p><p><a href="min-9956.html">Lazur-Apatite</a></p><p><a href="min-10351.html">Moroxite</a></p><p><a href="min-27367.html">Osteolith</a></p><p><a href="min-40396.html">Pseudoapatite</a></p><p><a href="min-32294.html">Talkapatit</a></p><p><a href="min-10958.html">Trillium</a></p><p><a href="min-45528.html">Yttriumapatite</a></p></div></div></div><h2 class="mindatadivh2">Other Information</h2><div class='mindatarow'><div class='mindatath'>Health Risks:</div><div class="mindatam2">No information on health risks for this material has been entered into the database. You should always treat mineral specimens with care.</div></div><h2 class="mindatadivh2">References for Apatite</h2><div class='mindatarow'><div class='mindatath'>Reference List:</div><div class="mindatam2"><div id='minreflist'></div>Davila, M. (1767) Ordre Second. Pierres Gypseuses. 2. in Catalogue syst. et raisonné des curiosités de la nature et de l’art qui composent de cabinet de M. Davila. 3 volumes, Paris. [as La Pierre Phosphorique]<br />
+<br />
+de Lisle, R. (1772) Pierreux Cristaux. Espece V. La Chrysolite. Essai de cristallographie. Paris. [as Chrysolite ordinaire]<br />
+<br />
+Sage, B.G. (1777) Améthiste Basaltine. Eléméns de Minéralogie Docimastique, second edition, 2 volumes: 1: 231. [as Améthiste Basaltine]<br />
+<br />
+de Lisle, R. (1783) Gemmes. Espèce VII. Chysolite ordinaire ou proprement dire. 2. Cristallographie, ou description des formes propres à tous les corps du regne minéral. 4 volumes, Paris: 2: 254, 271. [as Chrysolite ordinaire]<br />
+<br />
+Gerhards, C.A. (1786) Erster Anhang. Von einigen noch nicht genau bestimmten und ganz neu entdecken Mineralien. in Grundriss des Mineralsystems, Christian Friedrich Himburg, Berlin: 281-287. [as Apatit]<br />
+<br />
+Klaproth (1788) Bergmännisches Journal, Freiberg (Neues Bergmännisches Journal): 294. [as Phosphorsaurer-Kalk]<br />
+<br />
+Proust (1788) Le Journal de physique et le radium, Paris: 32: 241. [as Phosphate calcaire]<br />
+<br />
+Werner (1788) Bergmännisches Journal, Freiberg (Neues Bergmännisches Journal): 576. [as Apatit]<br />
+<br />
+Hoffmann, C.A.S. (1789) Mineralsystem des Herrn Inspektor Werners mit dessen Erlaubnis herausgegeben von C.A.S. Hoffmann. Bergmännisches Journal: 1: 369-398. [as Apatit]<br />
+<br />
+Pelletier (1790) Annales de chimie, Paris: 7.<br />
+<br />
+Werner (1790) Bergmännisches Journal, Freiberg (Neues Bergmännisches Journal): 74. [as Spargelgrüne Steinkrystalle aus Spanien nähern Apatit]<br />
+<br />
+Kirwan, R. (1794) Elements of Mineralogy, second edition: 1: 129. [as Phosphorite]<br />
+<br />
+Abildgaard (1798) Moll’s Berg.-Hütten, Jb.: 2: 432. [as Moroxite]<br />
+<br />
+Vauquelin (1798) Annales de chimie, Paris: 26: 123. [as Chaux phosphatatée]<br />
+<br />
+Abildgaard (1800) Annales de chimie, Paris: 32: 195. [as Asparagolithe]<br />
+<br />
+Karsten, D.L.G. (1800) Mineralogische Tabellen, Berlin. First edition: 36. [applied to all varieties except Moroxite]<br />
+<br />
+Trommsdorf (1800) J. de pharm.: 8: 153. [as Sächsischer Beryll and Augustit]<br />
+<br />
+Haüy, R.J. (1801) Chaux phosphatée. 1. Traité de minéralogie. First edition: in 4 volumes with atlas in fol.: 2. [all varieties, including moroxite]<br />
+<br />
+Karsten, D.L.G. (1808) Mineralogische Tabellen, Berlin, second edition: 52. [as Phosphorit]<br />
+<br />
+Emmons (1838) Rep. Geol., New York: 252. [as Eupyrchroite]<br />
+<br />
+Hermann (1844) Journal für praktische Chemie, Leipzig: 31: 101. [as Talkapatit]<br />
+<br />
+Henry, T.H. (1850) XVII. On francolite, a supposed new mineral. Philosophical Magazine Series: 3: 241, 134-135.<br />
+<br />
+Bromeis (1851) Ann. Chem. Pharm.: 79. [as Osteolith]<br />
+<br />
+Dana, J.D. (1854) V. Phosphates, Arsenates, Antimonates, Nitrates. 1. Anhydrous. 1. Apatite Group. 1. in A System of Mineralogy Forth Edition, George P. Putnam and Co., New York and London: 396-399.<br />
+<br />
+Shepard (1856) American Journal of Science: 22: 96. [as Pyroguanite, Glaubapatite]<br />
+<br />
+Nordenskiöld (1857) Moskovskoe Obshchestvo Ispytatelei Prirody (Société impériale des naturalists de Moscou): 30: 217, 224. [as Lazur-apatit]<br />
+<br />
+Rammelsberg, C.F. (1860) Apatit. in Handbuch der Mineralchemie, Wilhelm Engelmann, Leipzig: 351-355.<br />
+<br />
+Phipson (1862) Journal of the Chemical Society, London: 15: 277. [as Sombrerite]<br />
+<br />
+Dana, J.D., Brush, G.J. (1869) Apatite. in A System of Mineralogy, Fifth Edition, John Wiley and Son, New York: 530-535.<br />
+<br />
+Roscoe and Schorlemmer (1877) Treat. on Chem: 1: 459. [as Estramadurite]<br />
+<br />
+Viola (1905) Rendus comitato geologico d’Italia, Rome, Bollettino: 6: 106. [optical anomalies]<br />
+<br />
+Chirvinsky (1907) Centralblatt für Mineralogie, Geologie und Paläontologie, Stuttgart: 279. [optical anomalies]<br />
+<br />
+Lacroix, A. (1910) Minéralogie de la France et des ses colonies, Paris. 5 volumes: vol. 4: 558 [optical anomalies], 561. [phosphate rock deps.]<br />
+<br />
+Doelter, C. (1911-1931) Handbuch der Mineral-chemie (in 4 volumes divided into parts): 3, [1]: 333, 354.<br />
+<br />
+Brauns (1916) Jb. Min., Beil.-Bd.: 41: 73. [optical anomalies]<br />
+<br />
+Bellucci and Grassi (1919) Gazzetta chimica italiana, Rome: 49: 232.<br />
+<br />
+Ramdohr, P. (1919) Jb. Preuss. Geol. Landesanst.: 40: 284.<br />
+<br />
+Simpson (1920) Mineralogical Magazine: 19: 29.<br />
+<br />
+Zambonini (1923) Zeitschrift für Kristallographie, Mineralogie und Petrographie, Leipzig: 58: 226.<br />
+<br />
+Bornemann-Starinkevitch (1924) Comptes rendus de l’académie des sciences de l’U.R.S.S., n.s.: 39.<br />
+<br />
+Fersman (1924) Comptes rendus de l’académie des sciences de l’U.R.S.S., n.s.: 42.<br />
+<br />
+Hintze, C. (1924) Handbuch der Mineralogie. Berlin and Leipzig. 6 volumes: 1 [4A]: 562. <br />
+<br />
+Shannon and Larsen (1925) American Journal of Science: 9: 250.<br />
+<br />
+Fersman (1928) Jahrbuch für Mineralogie, Beilage.-Bd.: 55: 40. [as Cerapatite]<br />
+<br />
+Simpson (1929) Journal of the Royal Society of Western Australia: 15: 99.<br />
+<br />
+Alfani (1932) Periodico de Mineralogia-Roma: 3: 220.<br />
+<br />
+Dittler and Hueber (1932) Annalen des naturhistorischen Staats-Museum: 46: 185.<br />
+<br />
+Simpson (1933) Journal of the Royal Society of Western Australia: 20: 47.<br />
+<br />
+Foshag, W.F. (1936) New mineral names. American Mineralogist: 21: 269-272.<br />
+<br />
+Gruner and McConnell (1937) Zeitschrift für Kristallographie, Mineralogie und Petrographie, Leipzig: 97: 208.<br />
+<br />
+McConnell (1937) American Mineralogist: 22: 977.<br />
+<br />
+Borneman-Starinkevitch (1938) Comptes rendus de l’académie des sciences de l’U.R.S.S., n.s.: 19: 253.<br />
+<br />
+Deans (1938) Mineralogical Magazine: 25: 135.<br />
+<br />
+McConnell, Duncan (1938), A structural investigation of the isomorphism of the apatite group. American Mineralogist: 23: 1-19.<br />
+<br />
+Belov (1939) Comptes rendus de l’académie des sciences de l’U.R.S.S., n.s.: 22: 89.<br />
+<br />
+Thewlis (1939) Transactions of the Faraday Society: 35: 358.<br />
+<br />
+Mansfield (1940) American Journal of Science: 238: 863. [phosphate rock deps.]<br />
+<br />
+McConnell and Gruner (1940) American Mineralogist: 25: 157.<br />
+<br />
+Mason (1941) Geologiska Föeningens I Stockholm. Förhandlinger, Stockholm: 63: 383.<br />
+<br />
+Minguzzi (1941) Periodico de Mineralogia-Roma: 12: 343.<br />
+<br />
+Sahama (1941) Bull. Comm.. géol. Finlande: no. 126: 50.<br />
+<br />
+Dihn and Klement (1942) Zeitschrift für Elektrochemie und angewandte physikalische Chemie, Halle a.S.: 48: 331.<br />
+<br />
+McConnell (1943) Geological Society of America Bulletin: 54: 707. [phosphate rock deps.]<br />
+<br />
+Volodchenkova and Melentiev (1943) Comptes rendus de l’académie des sciences de l’U.R.S.S., n.s.: 39: 34.<br />
+<br />
+Gordon (1944) Proceedings of the Academy of Sciences, Philadelphia: 96: 333.<br />
+<br />
+Hudson, Cherkes, and Buchwald (1945) Journal of Urology: 53: 654. [sulfatian in urinary tracts]<br />
+<br />
+Jolibois and Hébert (1946) Comptes rendus de l’Académie des sciences de Paris: 222: 569.<br />
+<br />
+Pieruccini (1947) Att. Soc. tosc.: 54.<br />
+<br />
+Afanasev (1948) Comptes rendus de l’académie des sciences de l’U.R.S.S., n.s: 62: 677.<br />
+<br />
+Palache, C., Berman, H., Frondel, C. (1951) The System of Mineralogy of James Dwight Dana and Edward Salisbury Dana, Yale University 1837-1892, Volume II. John Wiley and Sons, Inc., New York, 7th edition, revised and enlarged, 1124 pp.: 878.<br />
+<br />
+Kay, M.I., Young, R.A., Posner, A.S. (1964) Crystal structure of hydroxyapatite. Nature: 204: 1050-1052.<br />
+<br />
+Portnov, A.M., Gorobets, B.S. (1969) Luminescence of apatite fro different rock types. Doklady Akademii Nauk SSSR: 184: 110-113.<br />
+<br />
+McConnell, D. (1973) Apatite, its Crystal Chemistry, Mineralogy, Utilization, and Geologic and Biologic Occurrences. Springer-Verlag, New York, N.Y.<br />
+<br />
+Lang, A.R., Walmsley, J.C. (1983) Apatite inclusions in natural diamond coat. Physics and Chemistry of Minerals: 9: 6-8.<br />
+<br />
+Farver, J.R., Gletti, B.J. (1989) Oxygen and strontium diffusion kinetics in apatite and potential application to thermal history determinations. Geochimica et Cosmochimica Acta: 53: 1621-1631.<br />
+<br />
+Hogarth, D.D. (1989) Pyrochlore, apatite and amphibole: distinctive minerals in carbonatite. In K. Bell, Ed., Carbonatites: Genesis and Evolution: 105-148. Unwin Hyman Ltd., London.<br />
+<br />
+Hughes, J.M., Cameron, M., Crowley, K.D. (1989) Structural variations in natural F, OH, and Cl apatites. American Mineralogist: 74: 870-876.<br />
+<br />
+Hughes, J.M., Cameron, M., Crowley, K.D. (1990) Crystal structures of natural ternary apatites: Solid solution in the Ca5(PO4)3X (X=F, OH, Cl) system. American Mineralogist: 75: 295-304.<br />
+<br />
+Elliott, J.C. (1994): Structure and chemistry of the apatites and other calcium orthophosphates. Elservier, Amsterdam, 389 pp. <br />
+<br />
+Fleet, M.E., Pan, Y. (1997) Rare earth elements in apatite: uptake from H2O-bearing phosphate-fluoride melts and role of volatile components. Geochimica et Cosmochimica Acta: 61: 4645-4760.<br />
+<br />
+Jonckheere, R., Wagner, G. (2000) On the occurrence of anomalous fission tracks in apatite and titanite American Mineralogist: 85: 1744-1753.<br />
+<br />
+Hughes, J.M., Rakovan, J. (2002) The crystal structure of apatite, Ca5(PO4)3(F,OH,Cl). In Phosphates - Geochemical, Geobiological, and Materials Importance (M.L. Kohn, J. Rakovan, and J.M. Hughes, Eds.). Rev. Mineral. Geochem.: 48: 1-12.<br />
+<br />
+Pan, Y., Fleet, M.E. (2002) Compositions of the apatite group minerals: substitution mechanisms ansd controlling factors. In Phosphates. Reviews in Mineralogy and Geochemistry (M.J. Kohn, J. Rakovan and J.M. Hughes, Eds.) Reviews in Mineralogy: 48: 13-49.<br />
+<br />
+Waychunas, G. (2002) Apatite luminescence. Reviews in Mineralogy and geochemistry: 48: 701-742.<br />
+<br />
+Flora, N.J., Yoder, C.H., Jenkins, H.D.B. (2003) Lattice energies of apatites and estimation of ΔH1°(PO3- 4 g). Inorganic Chemistry: 34: 499-517.<br />
+<br />
+Dorozhkin, S.V. (2009): Calcium orthophosphates in nature, biology and medicine. Materials 2, 399-498.<br />
+<br />
+Pasero, M., Kampf, A.R., Ferraris, C., Pekov, I.V., Rakovan, J.R., White, T.J. (2010) Nomenclature of the apatite supergroup minerals. European Journal of Mineralogy: 22: 163-179.<br />
+<br />
+Hovis, G.L., Scott, B.T., Altomare, C.M., Leaman, A.R., Morris, M.D., Tomaino, G.P., McCubbin, F.M. (2014) Thermal expansion of fluorapatite-hydroxylapatite crystalline solutions. American Mineralogist: 99: 2171-2175.<br />
+<br />
+Hughes, J.M., Heffernan, K.M., Goldoff, B., Nekvasil, H. (2014) Cl-rich fluorapatite, devoid of OH, from the Three Peaks Area, Utah: the first reported structure of natural Cl-rich fluorapatite. The Canadian Mineralogist: 52: 643-651.<br />
+<br />
+Hughes, J.M. (2015) The many facets of apatite. American Mineralogist: 100: 1033-1039.<br />
+<br />
+Hughes, J.M., Rakovan, J.F. (2015). Structurally robust, chemically diverse: apatite and apatite supergroup minerals. Elements 11, 165-170.<br />
+<br />
+Teiber, H., Marks, M.A.W., Arzamastsev, A.A., Wenzel, T., Markl, G. (2015) Compositional variation in apatite from various host rocks: clues with regards to source composition and crystallization conditions. Neues Jahrbuch für Mineralogie - Abhandlungen: 192: 151-167.<br />
+</div></div><h2 class="mindatadivh2">Internet Links for Apatite</h2><div class='mindatarow'><div class='mindatath'>mindat.org URL:</div><div class="mindatam2"><a href="http://www.mindat.org/min-29229.html">http://www.mindat.org/min-29229.html</a><br>Please feel free to link to this page.</div></div><div class='mindatarow'><div class='mindatath'>Search Engines:</div><div class="mindatam2"><!-- Search Google -->
+<form method="get" name="googleform" action="http://www.google.com/custom" target="_blank">
+<input type="hidden" name="q" size="31" maxlength="255" value="apatite"></input>
+<input type="hidden" name="client" value="pub-7737835674400043"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"></input>
+<input type="hidden" name="hl" value="en"></input>
+</form>
+<li><a href="#" onClick="document.googleform.submit();">Look for Apatite on Google</a></li>
+<!-- Search Google -->
+<li><a target="_blank" href="/click.php?enc=aHR0cDovL3d3dy5nb29nbGUuY29tL2ltYWdlcz9xPWFwYXRpdGU%3D">Look for Apatite images on Google</a></li></div></div><div class='mindatarow'><div class='mindatath'>Mineral Dealers:</div><div class="mindatam2"><li><a target="_blank" href="minclick.php?cid=4674&m=Apatite"><b>Buy from McDougall Minerals</b></a><li><a target="_blank" href="minclick.php?cid=4&m=Apatite"><b>Find Apatite on www.crystalclassics.co.uk</b></a><li><a target="_blank" href="minclick.php?cid=467&m=Apatite"><b>Wilensky Fine Minerals</b></a><li><a target="_blank" href="minclick.php?cid=1402&m=Apatite"><b>Wendel Minerals  -  Auction & Shop</b></a><li><a target="_blank" href="minclick.php?cid=173&m=Apatite"><b>The Arkenstone - Fine Minerals</b></a><li><a target="_blank" href="minclick.php?cid=66&m=Apatite"><b>MINSERVICE - buy on www.minservice.com - Worldwide Classical and Rarity</b></a><li><a target="_blank" href="minclick.php?cid=179&m=Apatite"><b>Fine Minerals from Weinrich Minerals, Inc.</b></a><li><a target="_blank" href="minclick.php?cid=3170&m=Apatite"><b>Apatite specimens for sale - minfind.com</b></a><li><a target="_blank" href="minclick.php?cid=1150&m=Apatite"><b>Buy from David K Joyce minerals</b></a><li><a target="_blank" href="minclick.php?cid=1826&m=Apatite"><b>Buy RARE Minerals from Rocks of Africa</b></a><li><a target="_blank" href="minclick.php?cid=924&m=Apatite"><b>Rare and Unusual minerals at Mineralogical Research Company</b></a><li><a target="_blank" href="minclick.php?cid=228&m=Apatite"><b>High-end worldwide specimens & outstanding customer service</b></a></div></div><div class='mindatarow'><div class='mindatath'>Specimens:</div><div class='mindatam2'>The following <a href="http://www.minfind.com/minsearch-29229.html">Apatite specimens</a> are currently listed for sale on <a href="http://www.minfind.com">minfind.com</a>.</div></div><div class='mindatarow'><div class='minfindrow'><div id="minfindsales"><div class="minfindbox"><a title="Click for full details" target="_blank" href="http://www.minfind.com/mineral-40828.html"><img src="http://www.minfind.com/mfthumbs/90_90_000000_60197041854ff25e6ab68e.jpg"></a></div><div class="minfindbox"><a title="Click for full details" target="_blank" href="http://www.minfind.com/mineral-59881.html"><img src="http://www.minfind.com/mfthumbs/90_90_000000_5723453554ff335de3b77.jpg"></a></div><div class="minfindbox"><a title="Click for full details" target="_blank" href="http://www.minfind.com/mineral-13650.html"><img src="http://www.minfind.com/mfthumbs/90_90_000000_124191299055b3ac4c4bc9c.jpg"></a></div><div class="minfindbox"><a title="Click for full details" target="_blank" href="http://www.minfind.com/mineral-13648.html"><img src="http://www.minfind.com/mfthumbs/90_90_000000_198388390754ff2703e046f.jpg"></a></div><div class="minfindbox"><a title="Click for full details" target="_blank" href="http://www.minfind.com/mineral-417427.html"><img src="http://www.minfind.com/mfthumbs/90_90_000000_112710614856fc36063b64c.jpg"></a></div><div class="minfindbox"><a title="Click for full details" target="_blank" href="http://www.minfind.com/mineral-211704.html"><img src="http://www.minfind.com/mfthumbs/90_90_000000_135476980253fec0462dd74.jpg"></a></div><div class="minfindbox"><a title="Click for full details" target="_blank" href="http://www.minfind.com/mineral-13513.html"><img src="http://www.minfind.com/mfthumbs/90_90_000000_168824810254ff1d70401b9.jpg"></a></div></div></div></div><h2 class="mindatadivh2">Localities for Apatite</h2><div><a name="themap"></a>
+<div id="map"></div>
+<div class="smalltxt"> map shows a selection of localities that have latitude and longitude coordinates recorded. Click on the <img border=0 src="/images/m-t.png"> symbol to view information about a locality. 
+The <img border=0 src="/images/m-t.png"> symbol next to localities in the list
+can be used to jump to that position on the map.
+</div>
+<div class="buttonrow">
+<a href="show.php?id=29229&ld=1#themap">Show Locality List (10429 Items)</a></div><div class="clearer"></div>
+</div>
+</div></div><div id="backdropad" class="hidetablet hidephone"></div>
+<div id="backdroptext" class="hidetablet hidephone"></div>
+<div id="backdropadt" class="hidephone hidepc"></div>
+<div id="backdroptextt" class="hidephone hidepc"></div>
+<div id="backdropadm" class="hidetablet hidepc"></div>
+<div id="backdroptextm"  class="hidetablet hidepc"></div>
+<video id="backdropvid"></video>
+<div id="backdropfade"></div>
+</div><div id="bformblock">
+<form class="flatform" method="get" action="/nsearch.php">
+Mineral 
+ <input name="name" style="width: 137px;" />
+and/or Locality <input name="loc" style="width: 137px;">&nbsp;<input type="submit" value="Search" />
+</form>
+</div>
+
+
+<div id="footertext">
+Mindat.org is an outreach project of the Hudson Institute of Mineralogy, a 501(c)(3) not-for-profit organization.<br>Copyright &copy; mindat.org and the Hudson Institute of Mineralogy 1993-2017, except where stated. Mindat.org relies on the contributions of thousands of members and supporters. 
+<br /><a href="/privacy.php">Privacy Policy</a> - <a href="/terms.php">Terms & Conditions</a> -
+<a href="/contact.php">Contact Us</a>
+	
+	
+<span style="float: right">Current server date and time: January 16, 2017 23:15:15
+ Page generated: January 16, 2017 22:18:11
+</span>
+
+<div class="clearer"></div><div><a href='javascript:scroll(0,0)'>Go to top of page</a></div>
+</div>
+<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-41671786-1', 'mindat.org');
+	ga('send', 'pageview');
+	$(function()
+	{
+		$(".refsrc").each(function(index)
+		{
+			var i = index + 1;
+			var srcid=$(this).attr('id');
+			var bits = srcid.split('_');
+			var refid = bits[1];
+			$("#refsrc_"+refid).html("<a name='refanc_"+refid+"' class='refanchort'>["+i+"]</a>");
+	
+			$(".reflink_"+refid).each(function()
+			{
+				var con = $(this).html();
+				var out = i;
+				if (con!='') {
+					out+=" - "+con;
+				}
+				$(this).html("<a href='#refanc_"+refid+"' class='refanchor'>["+out+"]</a>");
+	
+			});
+
+
+			
+		});
+
+	
+	});
+  
+jQuery.fn.centerhz = function () {
+  //  this.css("position","absolute");
+  
+	var newleft =  Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + 
+                                                $(window).scrollLeft());
+	
+	var oldleft = $(this).offset().left;
+	
+
+    this.css("margin-left", (newleft - oldleft) + "px");
+    return this;
+}
+  
+  
+</script>
+
+
+</div></body></html>
