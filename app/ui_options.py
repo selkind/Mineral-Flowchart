@@ -12,8 +12,8 @@ class UiOptions:
         self.name = ''
         self.dataSource = csv_sourcelist
         self.allAttributeSourceColumns = (1, len(self.dataSource[0]))
-        self.handSampleSourceColumns = (1, 10)
-        self.thinSectionSourceColumns = (7, 14)
+        self.handSampleSourceColumns = (1, 12)
+        self.thinSectionSourceColumns = (7, 16)
         self.allAttributes = {}
         self.attributesForSampleType = []
         self.populate_all_attributes()
@@ -37,7 +37,8 @@ class UiOptions:
                 for row in range(1, len(self.dataSource)):
                     separated_values = self.dataSource[row][attribute].split(',')
                     for attributeValue in separated_values:
-                        if attributeValue.lower() not in self.allAttributes[self.dataSource[0][attribute]]:
+                        if attributeValue.lower() not in self.allAttributes[self.dataSource[0][attribute]] and \
+                                attributeValue.lower() !='':
                             self.allAttributes[self.dataSource[0][attribute]].append(attributeValue.lower())
                             self.allAttributes[self.dataSource[0][attribute]].sort()
         except IndexError:
