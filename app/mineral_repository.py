@@ -13,7 +13,7 @@ class MineralRepository:
 
     def read_data_source(self):
         realpath = os.path.dirname(os.path.realpath(__file__))
-        filelocation = realpath + '\database.csv'
+        filelocation = os.path.join(realpath, 'database.csv')
         with open(filelocation) as f:
             reader = csv.reader(f)
             for row in reader:
